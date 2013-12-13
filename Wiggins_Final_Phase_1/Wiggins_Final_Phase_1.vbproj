@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78E01B5D-2B0E-4031-AE2E-14AFD7A1D6DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Wiggins_Final_Phase_1.My.MyApplication</StartupObject>
+    <RootNamespace>Wiggins_Final_Phase_1</RootNamespace>
+    <AssemblyName>Wiggins_Final_Phase_1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Wiggins_Final_Phase_1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Wiggins_Final_Phase_1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountInquiryForm.Designer.vb">
+      <DependentUpon>AccountInquiryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccountInquiryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountMenu.Designer.vb">
+      <DependentUpon>AccountMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccountMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountsForm.Designer.vb">
+      <DependentUpon>AccountsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccountsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountTransactions.Designer.vb">
+      <DependentUpon>AccountTransactions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccountTransactions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralStoreInfo.Designer.vb">
+      <DependentUpon>GeneralStoreInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralStoreInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="MoreInfoForm.Designer.vb">
+      <DependentUpon>MoreInfoForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MoreInfoForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductInfo.Designer.vb">
+      <DependentUpon>ProductInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProductInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShoppingCart.Designer.vb">
+      <DependentUpon>ShoppingCart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeForm.Designer.vb">
+      <DependentUpon>WelcomeForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoreProfile.Designer.vb">
+      <DependentUpon>StoreProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StoreProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccountInquiryForm.resx">
+      <DependentUpon>AccountInquiryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountMenu.resx">
+      <DependentUpon>AccountMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountsForm.resx">
+      <DependentUpon>AccountsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountTransactions.resx">
+      <DependentUpon>AccountTransactions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralStoreInfo.resx">
+      <DependentUpon>GeneralStoreInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoreInfoForm.resx">
+      <DependentUpon>MoreInfoForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductInfo.resx">
+      <DependentUpon>ProductInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShoppingCart.resx">
+      <DependentUpon>ShoppingCart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomeForm.resx">
+      <DependentUpon>WelcomeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StoreProfile.resx">
+      <DependentUpon>StoreProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\treadmill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\stairmaster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\elliptical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\stationarybike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\rowing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\treadclimber.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
